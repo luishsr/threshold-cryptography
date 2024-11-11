@@ -1,0 +1,14 @@
+[package]
+name = "threshold-cryptography"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = { version = "0.4", features = ["rand", "serde"] }
+rand = "0.8"
+sha2 = "0.10"
+aes = "0.8.4"
+ctr = "0.9"
+bincode = "1.3"
+lazy_static = "1.5.0"
+serde = { version = "1.0.214", features = ["derive"] }
